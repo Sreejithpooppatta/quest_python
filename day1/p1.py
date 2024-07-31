@@ -60,17 +60,17 @@
 
 
 # accept the average score from user (integer) and print the result as follows--
-input_score = int(input('Enter the average score')) 
-if input_score in range (0,50):
-    print('fail')
-elif input_score in range (75) :
-    print('Second class')
-elif input_score in range (74,91):
-        print('First class')
-elif input_score in range (90,101):
-        print('Distinction  class')
-else:
-      print('invalid input')
+# input_score = int(input('Enter the average score')) 
+# if input_score in range (0,50):
+#     print('fail')
+# elif input_score in range (75) :
+#     print('Second class')
+# elif input_score in range (74,91):
+#         print('First class')
+# elif input_score in range (90,101):
+#         print('Distinction  class')
+# else:
+#       print('invalid input')
 
 
 
