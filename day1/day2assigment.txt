@@ -1,0 +1,58 @@
+1.What is the alternative implementation of function overloading in Python?
+
+-> Set default values for parameters, allowing the function to work with different argument combinations.
+   def wish(name, greeting="Good morning"):
+       print(greeting, name)
+
+   greet("Paapu")  # Good morning Paapu
+   greet("appu", "Hi")  # Outputs: Hi appu
+
+   -> Multiple Dispatch Library:
+      from multipledispatch import dispatch
+
+   @dispatch(int, int)
+   def add(x, y):
+       return x + y
+
+   @dispatch(float, float)
+   def add(x, y):
+       return x * y
+
+   add(2, 3)  # Outputs: 5
+   add(2.5, 3.5)  # Outputs: 8.75
+
+2.Why there is no implicit type casting in Python ?
+Python is a strong and dynamic language 
+Explicit casting is better than implicit
+To avoid the complicity 
+
+However, Python does perform implicit type conversions in certain cases:
+Numeric types:
+When performing arithmetic operations between integers and floats, Python automatically converts 
+the integer to a float.
+
+3. Why there is no ++ and -- (increment/decrement) operators in Python?
+Simplicity and Readability, Immutable Integers -When we use x += 1, we are not altering the original
+integer object. Instead, a new integer object with the incremented value is created, and that new value
+is assigned back to the variable x.
+
+4.  What is the difference between @static method and @class method?
+A class method can access or modify the class state while a static method can't access or modify it.
+class MyClass:
+    class_var = 10
+
+    @classmethod
+    def class_method(cls):
+        print("Class method called:", cls.class_var)
+        cls.class_var = 20  # Modifying class-level attribute
+
+    @staticmethod
+    def static_method():
+        print("Static method called")
+
+# Calling the methods
+MyClass.class_method()
+MyClass.static_method()
+print(MyClass.class_var)
+
+5.
