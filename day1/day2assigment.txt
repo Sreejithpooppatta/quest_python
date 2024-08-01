@@ -55,4 +55,17 @@ MyClass.class_method()
 MyClass.static_method()
 print(MyClass.class_var)
 
-5.
+5.What is the syntax to use switch-case in Python. Given an example.
+day = 2
+
+match :names
+    case 1:
+        print("paapu")
+    case 2:
+        print("lachu")
+    case 3:
+        print("appu")
+    case _:  # Default case
+        print("Invalid name")
+
+        
