@@ -1,6 +1,6 @@
 # ==Assigments==
 
-# # 1. Find sum of Even placed digits in a number
+# 1. Find sum of Even placed digits in a number
 # input_num = (input('Enter the digit '))
 # count = 0
 # sum_even = 0
@@ -10,8 +10,13 @@
 #         sum_even += int(i)
 # print(f'The sum of even number is  {sum_even}')
 
-
-
+input_num = (input('Enter the digit '))
+large = 0
+for i in (input_num):
+    if int(i) > large:
+        large = int(i)
+        
+print(large)
 
 
 

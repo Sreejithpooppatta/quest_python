@@ -1,0 +1,52 @@
+# 2. Accpet a string of space seperated numbers and store them as a matrix (list of lists) of n rows.1
+# Now print the matrix row-wise
+
+user_input = list(map(str, input('Enter space-separated numbers:').split( )))
+print(user_input)
+
+row_num = int(input("Enter the number of rows  "))
+length = len(user_input)
+
+matrix = [user_input[i : i + length // row_num] for i in range(0, length, length // row_num)]
+
+print(matrix)
+
+print("row wise \n")
+for i in matrix:
+    print(i)
+
+
+
+
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

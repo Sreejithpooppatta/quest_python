@@ -20,3 +20,18 @@
 # print(f'The number of odd digits in {input_num} is {count}')
 
 
+#  program to find the even num and its sum
+# num = int(input('Enter the digit '))
+# sum = 0
+# count = 0 
+# while num > 0:
+#     reminder = num % 10
+#     num = num // 10
+#     if reminder % 2 == 0:
+#         sum = sum + reminder
+#         count += 1
+        
+# print(sum)
+# print(count)
+
+

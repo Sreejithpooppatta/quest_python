@@ -10,7 +10,6 @@ use append() to insert the data in the loop
 # list1 = []
 # for i in range(5):
 #     list1.append(i)
-#     i +=1
 # print(list1)
 
 # insert method
@@ -50,6 +49,11 @@ at last print the list
 # list2 = [6,7,8,9]
 # list3 = list1 + list2
 # print(list3)
+
+# slicing method
+# list = [0,1,2]
+# list[len(list) :] = [3]
+# print(list)
 
 # remove method
 

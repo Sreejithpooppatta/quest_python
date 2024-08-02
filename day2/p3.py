@@ -10,3 +10,14 @@
 #     count += 1
 # print(f'the odd numbers in {input_num} is {count}')
 
+
+
+num = input('num pls')
+length = len(num)
+print(length)
+count = 0
+nump = int(num)
+for i in num:
+    if int(i) % 2 == 1:
+        count +=1
+print(count) 
