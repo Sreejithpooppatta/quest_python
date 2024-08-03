@@ -9,4 +9,3 @@ list1 [0] = list1[1]
 list1[1] = temp
 
 print(f' List after swaping = {list1}')
-
