@@ -105,3 +105,15 @@ def varArgFunction2(*arguments):
 # print(numbers2)
 
 
+
+def myFunction(user_given_list): # receives refrence to the list numbers2
+
+    user_given_list.remove(30)
+
+numbers2 = list(map(int, input().split( )))
+
+print(numbers2)
+
+myFunction(numbers2)
+
+print(numbers2)

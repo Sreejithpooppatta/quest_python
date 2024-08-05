@@ -24,7 +24,7 @@ big_num = array[0]
 
 
 
-for i in range(1, n):
+for i in range(n):
 
     if array[i] < small_num:
 

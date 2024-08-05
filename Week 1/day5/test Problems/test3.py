@@ -2,7 +2,7 @@
 
 def descending_order_array(numbers):
  
-  numbers.sort(reverse=True)
+  numbers.sort(reverse=False)
   return numbers
 
 number_of_test_cases = int(input("Enter the number of test cases: "))
